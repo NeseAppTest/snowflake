@@ -26,11 +26,11 @@ import NavigationBar from 'react-native-navbar'
 /**
  * Imports for Testing Purposes
  */
-import Video from 'react-native-video'
-import ImagePicker from 'react-native-image-picker'
-import RNFetchBlob from 'react-native-fetch-blob'
-import firebase from 'firebase'
-import Camera from 'react-native-camera'
+// import Video from 'react-native-video'
+// import ImagePicker from 'react-native-image-picker'
+// import RNFetchBlob from 'react-native-fetch-blob'
+// import firebase from 'firebase'
+// import Camera from 'react-native-camera'
 
 /**
  * The necessary components from React

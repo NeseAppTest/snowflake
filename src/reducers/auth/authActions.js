@@ -243,7 +243,7 @@ export function getSessionToken () {
           Actions.Tabbar()
         } else {
           dispatch(sessionTokenRequestFailure())
-          //temporary change to bypass login to test features in subview
+          // temporary change to bypass login to test features in subview
           Actions.Tabbar()
         }
       })
@@ -251,7 +251,7 @@ export function getSessionToken () {
       .catch((error) => {
         dispatch(sessionTokenRequestFailure(error))
         dispatch(loginState())
-        //temporary change to bypass login to test features in subview
+        // temporary change to bypass login to test features in subview
         Actions.Tabbar()
       })
   }
