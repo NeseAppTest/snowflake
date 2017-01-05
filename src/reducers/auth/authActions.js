@@ -243,14 +243,16 @@ export function getSessionToken () {
           Actions.Tabbar()
         } else {
           dispatch(sessionTokenRequestFailure())
-          Actions.InitialLoginForm()
+          // temporary change to bypass login to test features in subview
+          Actions.Tabbar()
         }
       })
 
       .catch((error) => {
         dispatch(sessionTokenRequestFailure(error))
         dispatch(loginState())
-        Actions.InitialLoginForm()
+        // temporary change to bypass login to test features in subview
+        Actions.Tabbar()
       })
   }
 }
